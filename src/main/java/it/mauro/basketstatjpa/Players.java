@@ -18,27 +18,20 @@ public class Players implements Serializable{
 	private static final long serialVersionUID = 1L;
 	@EmbeddedId
 	private PlayersPK id;
-	String nome;
-	int numero;
+	int number;
 	public PlayersPK getId() {
 		return id;
 	}
-
-	public String getNome() {
-		return nome;
+	
+	public int getNumber() {
+		return number;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+
+	public void setNumber(int number) {
+		this.number = number;
 	}
 
-	public int getNumero() {
-		return numero;
-	}
-
-	public void setNumero(int numero) {
-		this.numero = numero;
-	}
 
 	public void setId(PlayersPK id) {
 		this.id = id;

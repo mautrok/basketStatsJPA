@@ -1,7 +1,7 @@
 package it.mauro.basketstatjpa;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 import javax.persistence.Embeddable;
 

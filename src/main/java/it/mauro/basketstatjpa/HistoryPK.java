@@ -13,7 +13,6 @@ public class HistoryPK implements Serializable{
 	private static final long serialVersionUID = 1L;
 	String team;
 	String player;
-	int number;
 	public String getTeam() {
 		return team;
 	}
@@ -26,12 +25,4 @@ public class HistoryPK implements Serializable{
 	public void setPlayer(String player) {
 		this.player = player;
 	}
-	public int getNumber() {
-		return number;
-	}
-	public void setNumber(int number) {
-		this.number = number;
-	}
-	
-	
 }
